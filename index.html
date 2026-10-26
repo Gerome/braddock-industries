@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Braddock Industries</title>
+<meta name="description" content="Braddock Industries Limited is a small software company in Dorset, England. We make ChordStreak, a piano practice app for iPhone, iPad and Mac.">
+<link rel="icon" href="chordstreak-icon.png">
+<style>
+  :root { --bg: #fbfaf7; --text: #1c1c1e; --muted: #6b6b70; --rule: #e6e3dc; --card: #ffffff; --accent: #b4532a; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #121214; --text: #f2f2f4; --muted: #a0a0a8; --rule: #2a2a2e; --card: #1b1b1f; --accent: #f08a5d; }
+  }
+  * { box-sizing: border-box; }
+  body { background: var(--bg); color: var(--text); margin: 0;
+         font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 72px 16px 48px; }
+  .mark { font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; font-size: 14px; color: var(--accent); margin: 0 0 20px; }
+  h1 { font-size: clamp(34px, 6vw, 52px); line-height: 1.1; margin: 0 0 20px; letter-spacing: -0.02em; }
+  .lede { font-size: 20px; color: var(--muted); margin: 0 0 56px; max-width: 600px; }
+  h2 { font-size: 14px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin: 56px 0 16px; }
+  .product { display: flex; gap: 24px; align-items: flex-start; background: var(--card); border: 1px solid var(--rule);
+             border-radius: 20px; padding: 28px; }
+  .product img { width: 96px; height: 96px; border-radius: 22px; flex: none; }
+  .product h3 { font-size: 24px; margin: 0 0 4px; }
+  .product .tag { color: var(--accent); font-weight: 600; font-size: 15px; margin: 0 0 12px; }
+  .product p { margin: 0 0 12px; }
+  .product ul { margin: 0; padding-left: 20px; }
+  a { color: var(--accent); }
+  footer { border-top: 1px solid var(--rule); margin-top: 64px; padding-top: 20px; color: var(--muted); font-size: 14px; }
+  footer p { margin: 0 0 6px; }
+  @media (max-width: 560px) { .product { flex-direction: column; padding: 22px; } }
+</style>
+</head>
+<body>
+<main>
+  <p class="mark">Braddock Industries</p>
+  <h1>Software for learning and practising music.</h1>
+  <p class="lede">Braddock Industries Limited is a small, independent software company based in Dorset, England.
+  We design and build apps for Apple devices.</p>
+
+  <h2>Our apps</h2>
+  <section class="product">
+    <img src="chordstreak-icon.png" alt="ChordStreak app icon">
+    <div>
+      <h3>ChordStreak</h3>
+      <p class="tag">For iPhone, iPad and Mac. Coming soon to the App Store.</p>
+      <p>ChordStreak turns piano practice into a game. Play along with scrolling music on a real piano, and
+      ChordStreak listens through your device's microphone, or connects to a MIDI keyboard, to check every note
+      as you play it.</p>
+      <ul>
+        <li>Lessons in technique, rhythm, note reading, scales, chords and sight-reading</li>
+        <li>Classical, ragtime and traditional pieces to learn hand by hand, at your own tempo</li>
+        <li>Ear training, theory quizzes and a glossary of score terms</li>
+        <li>Scores and progress tracking, all kept on your device</li>
+      </ul>
+      <p style="margin-top:12px"><a href="https://gerome.github.io/chordstreak-site/privacy/">ChordStreak privacy policy</a></p>
+    </div>
+  </section>
+
+  <h2>Contact</h2>
+  <p>For support, questions or anything else, email
+  <a href="mailto:gerome@braddock.industries">gerome@braddock.industries</a>.</p>
+
+  <footer>
+    <p>Braddock Industries Limited is registered in England and Wales, company number 14909979.</p>
+    <p>Registered office: Wadebridge House, 16 Wadebridge Square, Dorchester, Dorset, DT1 3AQ, United Kingdom.</p>
+    <p>© 2026 Braddock Industries Limited</p>
+  </footer>
+</main>
+</body>
+</html>
