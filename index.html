@@ -22,9 +22,9 @@
   .venture h2 { font-size: 22px; font-weight: 700; letter-spacing: -0.01em; margin: 0; }
   .venture p { margin: 0 0 10px; }
   .venture .meta { color: var(--muted); }
-  .wordmark { display: block; width: 150px; height: auto; margin-top: 4px; }
   .appicon { display: block; width: 64px; height: 64px; border-radius: 15px; margin-bottom: 10px; }
-  @media (prefers-color-scheme: dark) { .wordmark { filter: brightness(0) invert(0.92); } }
+  .mark { border-radius: 0; }
+  @media (prefers-color-scheme: dark) { .mark { filter: brightness(0) invert(0.92); } }
   a { color: inherit; text-underline-offset: 3px; text-decoration-thickness: 1px; }
   .contact { border-top: 1px solid var(--text); padding-top: 20px; display: grid; grid-template-columns: 180px 1fr; gap: 8px 24px; }
   .contact h2 { font-size: 22px; font-weight: 700; margin: 0; }
@@ -42,7 +42,7 @@
   <p class="intro">We build software that helps businesses price better and helps people learn music.</p>
 
   <section class="venture">
-    <h2><img class="wordmark" src="dynasics-logo.png" alt="Dynasics"></h2>
+    <h2><img class="appicon mark" src="dynasics-icon.png" alt="">Dynasics</h2>
     <div>
       <p>Independent revenue management for holiday lets, hotels and large accommodation portfolios. Automated
       dynamic pricing and managed pricing services that raise occupancy and revenue.</p>
